@@ -1,0 +1,71 @@
+* {
+  font-family: "Catamaran";
+  margin: 0;
+  text-decoration: none;
+  color: #595959;
+}
+
+header {
+  background-color: #ff8868;
+  height: 60px;
+  display: flex;
+}
+
+header div {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+
+form input {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+  font-style: italic;
+  border: 2.5px solid #b25f48;
+  outline: none;
+  border-radius: 4px;
+}
+
+.grid {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.dogs {
+  background-color: #fff2ef;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #ff8868;
+  height: 345px;
+  box-sizing: border-box;
+}
+
+.dogs-name {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.bred-for {
+  font-size: 14px;
+}
+
+.dogs-image {
+  width: 100%;
+  height: 250px;
+  vertical-align: middle;
+  object-fit: cover;
+  border-radius: 4px;
+}
